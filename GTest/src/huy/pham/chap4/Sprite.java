@@ -36,6 +36,14 @@ public class Sprite {
 	public void setVisible(boolean visible) {
 		this.visible = visible;
 	}
+	
+	public int getWidth() {
+		return width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
 
 	public int getX() {
 		return x;

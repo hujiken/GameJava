@@ -2,7 +2,7 @@ package huy.pham.chap4;
 
 import java.awt.event.MouseEvent;
 
-public class Box extends Sprite{
+public class Box extends Sprite {
 	
 	private int dx;
 	private int dy;

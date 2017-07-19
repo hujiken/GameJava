@@ -11,6 +11,16 @@ public class Prey extends Sprite{
 		initPrey();
 	}
 	
+	public Status getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+
+
 	private void initPrey() {
 		loadImage("images/prey1.png");
 		getImageDimention();
